@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EX02_DataType : MonoBehaviour
 {
-    //long a = 40000;
+    // long a = 40000;
     // sbyte 정수 자료형 (-128~ + 127) - 1바이트
     // short 정수 자료형 (-3만~ +3만) - 2바이트
     // integer 정수 자료형 (-20억~ +20억) - 4바이트
@@ -22,12 +22,14 @@ public class EX02_DataType : MonoBehaviour
     int a = 100;
     float b = 100.15f;
     string c;
+    bool aaa = true; // ture or false 값만 존재
 
     int sum;
     float sum2;
 
     void Start()
     {
+        //a = int.Parse(b); // 강제 형변환
         sum = (int)(a + b); //캐스트 강제 형변환 (int)
         sum2 = a + b;
 
