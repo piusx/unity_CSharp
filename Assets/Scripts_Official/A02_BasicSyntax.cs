@@ -1,0 +1,22 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class A02_BasicSyntax : MonoBehaviour
+{
+
+    void Start()
+    {
+        Debug.Log(transform.position.x);
+
+        if(transform.position.y < 5f)
+        {
+            Debug.Log("I'm about to hit the ground!");
+        }
+    }
+
+    void Update()
+    {
+        
+    }
+}
