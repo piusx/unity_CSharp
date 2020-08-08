@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class A01_VariablesAndFunctions : MonoBehaviour
-{
+// 함수와 변수
+public class VariablesAndFunctions : MonoBehaviour
+{ 
 
     int myInt = 10;
 
