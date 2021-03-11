@@ -2,15 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TestD : MonoBehaviour
+public class Test1 : MonoBehaviour
 {
-    // Start is called before the first frame update
+
+    int x = 100;
+    int y = 100;
+    int sum;
+
     void Start()
     {
-        
+        sum = x + y;
+
+        print(-sum);
     }
 
-    // Update is called once per frame
     void Update()
     {
         

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TestC : MonoBehaviour
+public class Test3 : MonoBehaviour
 {
 
     int intValue;
@@ -25,12 +25,17 @@ public class TestC : MonoBehaviour
         print(intValue);
     }
 
+    int Multiply(int _parameter)
+    {
+        return _parameter * _parameter;
+    }
+
     void Start()
     {
         //FloatToInt(floatValue, floatValue2, "Å×½ºÆ®");
+        FloatToInt(floatValue, floatValue2);
         //intValue3= FloatToInt3(floatValue, floatValue2);
         //print(intValue3);
-        //FloatToInt(floatValue, floatValue2);
         //FloatToInt2(floatValue);
     }
 
