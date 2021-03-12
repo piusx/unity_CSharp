@@ -17,17 +17,16 @@ public class Test5 : MonoBehaviour
     void Start()
     {
         //a += b;  // 복합대입 연산자
+        
         //c++; // ++c
-        //print(++c);
-        //print(c++);
+        //print(++c); // 미리 c 에 1더해준다
+        //print(c++); // 먼저 출력후 1을 더해준다.
         //print(c);
 
         //c = (a > b);  // 관계 연산자
-        //c = (a != b) || (a == b);  // 논리 연산자 && (And - 모든 조건이 참일 경우에만 True) || (OR - 조건중에 하나라도 True면 True)
+        c = (a != b) || (a == b);  // 논리 연산자 && (And - 모든 조건이 참일 경우에만 True) || (OR - 조건중에 하나라도 True면 True)
         // false            true
-
-        c = !(a == b);
-
+        //c = (a == b);
         print(c);
     }
 }

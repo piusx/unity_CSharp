@@ -10,13 +10,13 @@ public class Test7 : MonoBehaviour
     /*
     void Start()
     {
-        for (int i = 0; i <= 10; i += 2)
+        for (int i = 0; i <= 10; i++)
         {
             num = i;
             print(num);
         }
     }
-    */
+    
     void Start()
     {
         for (;;)
@@ -32,8 +32,10 @@ public class Test7 : MonoBehaviour
                 break; // 첫번째 반복문, 조건문 탈출
         }
     }
-    
-    // for문(반복횟수가 명활할때) 과 while 문 ( 반복 횟수가 명활하지 않을때)
+    */
+
+
+    // for문(반복횟수가 명확할때) 과 while 문 ( 반복 횟수가 명확하지 않을때)
 
     /*
     void Start()
@@ -48,7 +50,7 @@ public class Test7 : MonoBehaviour
         }
     }
     
-
+    
     void Start()
     {
         do    // 무조건 1회차는 실행 
@@ -59,6 +61,7 @@ public class Test7 : MonoBehaviour
         while (num < 10);
     }
 
+    */
 
     void Start()
     {
@@ -67,5 +70,5 @@ public class Test7 : MonoBehaviour
             print(a);
         }
     }
-    */
+
 }
