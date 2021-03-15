@@ -5,7 +5,6 @@ using UnityEngine;
 public class Test8 : MonoBehaviour
 {
     //1차원 배열
-
     int[] exp = { 50, 100, 200, 300, 400, 500 };
 
     int[] array = new int[10];
@@ -16,12 +15,12 @@ public class Test8 : MonoBehaviour
 
     void Start()
     {
-        exp[5] = 600;
-        print(exp[5]);
+        //exp[5] = 600;
+        //print(exp[5]);
 
         for (int i = 0; i < exp.Length; i++)
         {
-
+            print(exp[i]);
         }
     }
 
